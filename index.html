@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Translator</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <div class="popup-container">
+      <section class="from_language">
+        <h3>Select a language to translate from:</h3>
+        <select name="from_language" id="from_language">
+          <option value="English">English</option>
+          <option value="Mandarin">Mandarin</option>
+          <option value="Hindi">Hindi</option>
+          <option value="Spanish">Spanish</option>
+          <option value="French">French</option>
+          <option value="Arabic">Arabic</option>
+        </select>
+      </section>
+      <section class="to_language">
+        <h3>Select a language to translate to:</h3>
+        <select name="to_language" id="to_language">
+          <option value="English">English</option>
+          <option value="Mandarin">Mandarin</option>
+          <option value="Hindi">Hindi</option>
+          <option value="Spanish">Spanish</option>
+          <option value="French">French</option>
+          <option value="Arabic">Arabic</option>
+        </select>
+      </section>
+
+      <h3><label for="original text">What do you want translated?</label></h3>
+        <div class="user_input">
+          <textarea id="user_text" rows="3" cols="40"></textarea>
+          <hr>
+          <input type="submit" id="submit" value="Submit">
+        </div>
+    </div>
+    <h3>Translation:</h3>
+      <div class="output">
+        <div class="option" data-option="output" id="output"></div>
+      </div>
+    </div>
+      <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+
+We can readd this to the manifest if we have time
+
+The manifest.json file contains all the necessary information
+required to build the Chrome extension. It is the first file
+the extension checks and everything is loaded from this single file.
