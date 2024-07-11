@@ -1,4 +1,6 @@
 function sendTranslation(from_language, to_language, user_text){
+    const url = 'https://api.openai.com/v1/chat/completions'
+    const apiKey = ''; //insert openAI API KEY HERE
     console.log(from_language, to_language, user_text);
     const data = {
         model: 'gpt-3.5-turbo',
